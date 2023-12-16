@@ -8,7 +8,7 @@ const Article = memo(() => {
         Paste Your Url Here
       </h1>
      
-      <form action="" >
+      <form action="/predict" >
         <div className="px-10 max-w-4xl mt-10 mx-auto">
           <textarea className="textarea  w-[96.43%] textarea-bordered " placeholder="https://link-to-your-URL"></textarea>
         </div>
